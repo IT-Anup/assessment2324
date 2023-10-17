@@ -1,0 +1,155 @@
+
+
+body.home
+{
+background-image: url("imgs/Avenida\ de\ liberdade.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+
+}
+
+ul
+{
+ width: 95%;
+ display: flex;
+ list-style-type: none;
+ align-content: right;
+ justify-content: right;
+ position: relative;
+ top: 30px;
+ 
+}
+li
+{
+    display: flex;
+    height: 25px;
+    margin: 15px;
+
+   
+}
+a
+{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover
+{
+    color: yellowgreen;
+}
+
+.logo
+{
+ position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+body.detailP1
+{
+    background-color: #C3B8B8;
+
+
+}
+
+.IMG_9303-2
+{
+width: 35%;
+position: absolute;
+  top: 140px;
+  left: 4vh;
+  
+
+}
+
+h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 85px;
+    left: 30px;
+    
+}
+
+.IMG_1143-Edit
+{
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    top: 140px;
+    left: 90vh;
+      
+
+}
+
+h2
+{
+    position: absolute;
+    top: 85px;
+    left: 90vh;;
+   
+}
+p1
+{
+    font-family: 'Courier New', Courier, monospace;
+    width: 700px;
+    margin: auto;
+    position: absolute;
+    top: 550px;
+    left: 90vh; 
+}
+.IMG_7161
+{
+
+  width: 50%;
+  position: absolute;
+  top: 1050px;
+  left: 4vh;
+
+}
+p2
+{
+    font-family: 'Courier New', Courier, monospace;
+    width: 700px;
+    margin: auto;
+    position: absolute;
+    top: 1200px;
+    left: 800px; 
+}
+
+h3
+{
+
+    position: absolute;
+    top: 1000px;
+    left: 4vh;
+}
+@media(min-width:768px)
+{
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+   
+
+
+

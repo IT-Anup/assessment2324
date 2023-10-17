@@ -1,0 +1,124 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+/* Basic styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.logo img {
+    width: 100px;
+    height: auto;
+}
+ 
+nav ul {
+    list-style: none;
+    display: flex;
+}
+ 
+nav li {
+    margin-right: 20px;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+ 
+.search-box {
+    display: flex;
+}
+ 
+.search-box input[type="text"] {
+    padding: 10px;
+    border: none;
+}
+ 
+.search-box button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+ 
+/* Styling for the banner */
+.banner {
+    background-color: #ff6600;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+ 
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+ 
+/* Styling for the photo section */
+.photo-section {
+ 
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+ 
+.large-photo {
+    margin: 0;
+    background-color: thistle;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+ 
+.large-photo img {
+ 
+    width: 100%;
+    height: auto;
+}
+ 
+/* Styling for the articles */
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+ 
+article {
+    padding: 20px;
+    background-color: rgb(233, 233, 233);
+    flex-basis: calc(50% - 50px);
+    margin-bottom: 20px;
+}
+ 
+article img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.footer-logo img {
+    width: 80px;
+    height: auto;
+}
+ 
+.social-media-icons a {
+    margin-left: 10px;
+    color: white;
+}
