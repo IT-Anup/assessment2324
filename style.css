@@ -183,7 +183,21 @@ section .image3
     top: -22em;
 }
 
-.li2
+section .li2
 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font;
+    list-style-type: circle;
+    width: 600px;
+    position: relative;
+    right: 39em;
+    top: -60em;
     
+} 
+.fb
+{
+    position: absolute;
+    right: 20px;
 }
+
+
