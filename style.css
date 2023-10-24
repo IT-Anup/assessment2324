@@ -1,5 +1,5 @@
 
-
+/* background image*/
 body.home
 {
 background-image: url("imgs/Avenida\ de\ liberdade.jpg");
@@ -9,9 +9,19 @@ background-position: center;
 
 }
 
+/* logo */
+.logo
+{
+ position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+/* for navigation bar and items*/
 ul
 {
- 
+ background-color: rgb(206, 108, 69);
+ padding: 20px 0;
  display: flex;
  list-style-type: none;
  align-content: right;
@@ -29,6 +39,8 @@ li
     margin: 15px;   
 }
 
+/* for background colours for a items*/
+
 a
 {
     color: aliceblue;
@@ -36,44 +48,219 @@ a
     font-weight: bold;
 }
 
+/* a items colours when hover*/
 a:hover
 {
     color: yellowgreen;
 }
 
-.logo
-{
- position: absolute;
-  top: 30px;
-  left: 20px;
-}
 
-body.detailP1
+
+/* background colour for all details page*/
+body.detailP
 {
     background-color: #C3B8B8;
 }
-*{
-    box-sizing: border-box;
+
+
+
+footer
+{
+    background-color: rgb(206, 108, 69);
+     color: azure;
+     padding: 30px 0;
+     text-align: center;
+    
+}
+.items
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.image
+.ftl
+{
+font-size: 14px;
+padding-left: 5px;
+}
+
+.ftr
+{
+    padding-right: 5px;
+   
+    
+}
+
+
+
+ 
+
+
+.page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.page .heading
+{
+ width: 50%;
+}
+
+.page .heading h3
+{
+   font-size: 3em;
+   font-weight: bolder;
+   padding-bottom: 10px;
+   border-bottom: 3px solid #222; 
+}
+
+.page .heading h3 span
+{
+   font-weight: 80;
+   
+}
+
+.page .it
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+  
+}
+
+.page .it .pic
+{
+   display: flex;
+   flex-direction: column;
+   width: 32.5%; 
+}
+
+.page .it .pic img
+{
+   width: 100%; 
+   padding-bottom: 15px;
+   border-radius: 5px;
+  
+}
+@media only screen and (max-width: 769px) 
+{
+    .page .it
+{ 
+   flex-direction: column;
+}
+.page .it .pic
+{
+  
+   width: 100%; 
+}    
+}
+
+@media only screen and (max-width: 610px) 
+{
+    .page .heading
+{
+ width: 100%;
+}
+
+.page .heading h3
+{
+   font-size: 1em;
+ 
+}
+}
+.page .btn
+{
+    margin: 40px 0 70px 0;
+    background-color: #000000;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.page .btn
+{
+    color: white;
+    font-size:1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+
+}
+
+
+
+
+
+.image4
+{
+    display:inline-block;
+    border: 3PX solid rgb(147, 160, 83);
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    top: 2em;
+ 
+}
+
+.image4 .p4 
+{
+    margin-left: 100px;
+    padding: 10px;
+}
+
+
+
+.image4 .place4
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;  
+    text-align: center; 
+    padding-bottom: 5px;    
+}
+
+.image4 .IMGS4
+{
+    position: relative;
+    align-items: center;
+  
+    width: 100%;
+    height: auto;   
+}
+
+.image4 .IMGS4 img
+{
+  
+    width: 100%;
+       
+}
+
+
+
+.image44
 {
     display: inline-block;
     border: 3PX solid rgb(147, 160, 83);
-    float: left;
     margin: 5px;
     padding: 5px;
-    width: 600px;
-    height: fit-content;
+    width: 100%;
+    height: auto;
     position: relative;
-    left: 2EM;
+    text-align: center;
     top: 2em;
  
 }
 
 
 
-.image .place
+.image44 .place44
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2em;  
@@ -81,123 +268,237 @@ body.detailP1
     padding-bottom: 5px;    
 }
 
-
-.image .p
-{
-    font-family: 'Courier New', Courier, monospace;
-    width: 40%;
-    position: relative;
-    text-align:center;    
-}
-
-.image .IMGS
-{
-    position: relative;
-    align-items: center;
-    left: 155px;
-    width: 50%;
-    height: auto;   
-}
-
-
-.image2
-{  
-    
+.image444
+{ 
+    display: flex;
+    flex-direction: row;
     border: 3PX solid rgb(147, 160, 83);
     margin: 5px;
     padding: 5px;
-    width: 600px;
-    height: fit-content;
-    position: relative;
-    right: 39em;
-    top: -22em;
-}
-
-
-.image2 .IMGS2
-{
-    position: relative;
-    align-items: center;
-    left: 200px;
-    width: 30%;
-    height: auto;   
-}
-
-.image2 .place2
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;  
-    text-align: center; 
-    padding-bottom: 5px;    
-}
-
-.p2 
-{
-    font-family: 'Courier New', Courier, monospace;
-    width: 40%;
-    float: left;
-    text-align:center;    
-}
-
-section .image3
-{  
-    
-    border: 3PX solid rgb(147, 160, 83);
-    margin: 5px;
-    padding: 5px;
-    width: 600px;
+    width: 100%;
     height: auto;
     position: relative;
-    align-items: center;
-    right: 77em;
-    top: -24.8em;
+    text-align: center;
+    top: 2em;
+ 
+ 
 }
 
-.image3 .place3
+
+
+.image444 .IMGS444
+{
+    position: relative;
+   align-content:space-between;
+  
+    width: 40%;
+    height: auto;   
+}
+
+
+.image5
+{
+    display:inline-block;
+    border: 3PX solid rgb(147, 160, 83);
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    top: 2em;
+ 
+}
+
+.image5 .p5
+{
+    margin-left: 100px;
+    padding: 10px;
+}
+
+
+
+.image5 .place5
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2em;  
-    padding-bottom: 5px; 
-    
-    
+    text-align: center; 
+    padding-bottom: 5px;    
 }
 
-
-.image3 .IMGS3
+.image5 .IMGS5
 {
+    position: relative;
+    align-items: center;
+  
+    width: 100%;
+    height: auto;   
+}
 
-    width: 50%;
-    height: auto; 
+.image44 .IMGS44 img
+{
+  
+    width: 100%;
+       
 }
 
 
-.p2
-{  
+
+.image444
+{
+    display: inline-block;
     border: 3PX solid rgb(147, 160, 83);
-    
     margin: 5px;
     padding: 5px;
-    width: 600px;
+    width: 100%;
+    height: auto;
     position: relative;
-    right: 39em;
-    top: -22em;
+    text-align: center;
+    top: 2em;
+ 
 }
 
-section .li2
+
+
+.image444 .place444
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font;
-    list-style-type: circle;
-    width: 600px;
+    font-size: 1.2em;  
+    text-align: center; 
+    padding-bottom: 5px;    
+}
+
+.image4444
+{ 
+    display: flex;
+    flex-direction: row;
+    border: 3PX solid rgb(147, 160, 83);
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
     position: relative;
-    right: 39em;
-    top: -60em;
-    
-} 
-.fb
+    text-align: center;
+    top: 2em;
+ 
+ 
+}
+
+.image4444 .IMGS4444
 {
-    position: absolute;
-    right: 20px;
+    position: relative;
+   
+  
+    width: 90%;
+    height: auto;   
+}
+
+body2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contact
+{
+    display: flex;
+    width: 80%;
+}
+
+.Left
+{
+    width: 50%;
+    padding: 20px;
+    background-color: #D681DD;
+}
+
+.Left h2 
+{
+    text-align: center;
+
+}
+
+.Left label
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.Left input [type="text"],
+.Left input [type="email"],
+.Left input [type="phone"],
+.Left select,
+.Left textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
+
+
+.Left label[for="message"]
+{
+    display: block;
+}
+
+.Left input[type="radio"]
+{
+    margin-right: 5px;  
+}
+
+.Left .Suscribelbl 
+{
+    display:block;
+    font-weight: bold;
+}
+
+.Left button
+{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.Left button:hover
+{
+    background-color: rgb(127, 150, 93)
+
+}
+
+.right
+{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#C3B8B8;
+}
+
+.right a
+{
+
+color: white;
+font-size: 36px;
+text-decoration: none;
+margin: 0 20px;
+}
+
+
+.title
+{
+    display:flex;
+    font-weight: bold;
 }
 
 
