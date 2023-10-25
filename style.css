@@ -10,22 +10,27 @@ background-position: center;
 }
 
 /* logo */
+.logo1
+{
+ position: absolute;
+ top: 30px;
+ left: 20px;
+}
 .logo
 {
  position: absolute;
- top: 20px;
+ top: 55px;
  left: 20px;
 }
 
 /* for navigation bar and items*/
-ul
+.others
 {
  background-color: rgb(206, 108, 69);
  padding: 20pX 0;
-margin-bottom: 50px;
+ 
  display: flex;
  list-style-type: none;
- align-content: right;
  justify-content: right;
  position: relative;
  top: 20px; 
@@ -35,20 +40,20 @@ li
 {
     font-size: 1.5em;
     display: flex;
-    height: 10px;
     margin: 15px;   
 }
 
 /* for navigation bar and items for home page */
-ul1
+.navhome
 {
 display: flex;
 list-style-type: none;
-align-content: right;
 justify-content: right;
 position: relative;
 top: 20px; 
 }
+
+
 
 /* when the page is active */
 
@@ -130,6 +135,22 @@ padding-left: 20px;
     
 }
 
+/* all headings */
+.headings
+{
+    padding-top: 20px;
+    font-size: 1.2em;  
+    
+}
+
+
+/* top discription for page 3 */
+.dis
+{
+    margin-top: 40px;
+}
+
+
 /* details page pictures, headding, and paragraph for page 2 and 3*/
 .page
 {
@@ -141,7 +162,9 @@ padding-left: 20px;
     margin: 40px 20px 0 20px;
 }
 
-/* details headding for page 2 and 3*/
+
+
+/* details headding for gallery*/
 .page .heading
 {
  width: 50%;
@@ -189,8 +212,9 @@ padding-left: 20px;
 .page .it .pic img
 {
    width: 100%; 
-   padding-bottom: 15px;
-   border-radius: 5px;
+  
+   padding-bottom: 5px;
+   border-radius: 10px;
   
 }
 
@@ -261,11 +285,7 @@ padding-left: 20px;
 }
 
 
-/* top discription for page 3 */
-.dis
-{
-    margin-top: 35px;
-}
+
 
 
 /* page 4 and 5 items in the screen like heading, images and paragraphs */
@@ -276,14 +296,6 @@ padding-left: 20px;
     padding-bottom: 5px;    
 }
 
-/* all headings */
-.headings
-{
-    padding-top: 20px;
-    font-size: 1.2em;  
-
-       
-}
 
 
 /* targating image section on page 4 and 5 */
@@ -373,10 +385,15 @@ padding-left: 20px;
     margin-right: 5px;  
 }
 
-.Left .Suscribelbl 
+ .Suscribelbl 
 {
     display:block;
     font-weight: bold;
+}
+
+.yn
+{
+    display: flex;
 }
 
 

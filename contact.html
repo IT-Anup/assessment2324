@@ -9,23 +9,26 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />  
 </head>
 <body class="detailP">
+  
+    <ul class="others">
 
-   
-            
-            <ul class="ul">
-                <img class = "logo" src="./imgs/logowhite.png" alt="logo" width="80" height="60">
-                <li class="currentpage home"> <a href="./index.html"> Home</a> </li> 
+                <li class="home"> <a href="./index.html"> Home</a> </li> 
                 <li><a href="./detailp1.html"> </a> <a href="./detailp1.html"> Gallery</a> </li>
                 <li><a href="./detailP2.html"></a> <a href="./detailP2.html">City center</a> </li>
                 <li><a href="./detailp3.html"></a> <a href="./detailp3.html">Arch</a> </li>
                 <li><a href="./detailP4.html"> </a> <a href="./detailP4.html">River </a> </li>
                 <li><a href="./contact.html"> </a> <a href="./contact.html">Contact </a> </li>
             </ul>
-         <section class="contactp">
-            <section class="contact">
-               <section class="Left">
-                  <h2> Contact Us</h2>
 
+            <img class = "logo" src="./imgs/logowhite.png" alt="logo" width="80" height="60">
+            
+               <section class="contactp">
+                <section class="contact">
+                 <section class="Left">
+
+                
+                  <h2> Contact Us</h2>
+                  <form action="https://coolinhollanddemo.azurewebsites.net/" target="_blank" method="post">
                   <section class="title">
                    <input type="radio" id="Mr." name="Title" value="Mr." required>
                    <label for="Mr."> Mr.</label>
@@ -34,46 +37,46 @@
                   </section>
 
             
-                    <form action="action_page.php" mrthod="post">
-                    <label for="fname"> First name: </label>
-                 <input type="text" id="Fname" placeholder="Your name" required>
+                    
+                    <label for="Fname"> First name:* </label>
+                    <input type="text" id="Fname" placeholder="Your name" required>
                 
         
-                <br>
         
                 
-                <label for="lname"> Last name: </label>
-                <input type="text" id="lname" placeholder=" last name" required>
+                   <label for="lname"> Last name:* </label>
+                   <input type="text" id="lname" placeholder=" last name" required>
                 
-        
-                <br>
-                
-                <label for="email"> Email: </label>
-                <input type="email" id="email" placeholder=" your email" required>
-                
-                <br>
-
-                <label for="phone"> Phone: </label>
-                <input type="phone" id="phone" placeholder=" your phone number" required>
-
-                <br>
-
         
                
-                <textarea rows="4" cols="50" name="message" 
-                form="form">enter your message here... </textarea>
                 
-        
-                <br>
+                   <label for="email"> Email:* </label>
+                   <input type="email" id="email" placeholder=" your email" required>
+                
+               
 
-                <span class="Suscribelbl"> Suscribe to our newsletter:</span>
-                <br>
-                <input type="radio" id="Yes" name="Suscribe" value="yes">
-                <label for="yes"> Yes</label>
-                <input type="radio" id="no" name="Suscribe" value="no">
-                <label for="no"> No</label>
+                   <label for="phone"> Phone: </label>
+                   <input type="tel" id="phone" placeholder=" your phone number" >
+
+                
+                    
+                   <label for="message"> Message:*</label>
+                  <textarea id="message" name="your message" rows="4" placeholder="write your message here...." required></textarea>
+               
         
-                <button type="submit">Submit </button> 
+                
+
+                  <span class="Suscribelbl"> Suscribe to our newsletter:</span>
+               
+                  <section class="yn">
+                  <input type="radio" id="yes" name="Suscribe" value="yes">
+                  <label for="yes"> Yes</label>
+                 <input type="radio" id="no" name="Suscribe" value="no" checked>
+                 <label for="no"> No</label>
+                </section>
+        
+                 <button type="submit">Submit </button> 
+                </form>
      
             </section>
 
@@ -90,19 +93,19 @@
         <footer> 
             <section class="bar"></section>
             <section class="items">
-            <text class="ftl">
+            <section class="ftl">
                &copy;2023 talkingphotos.tp all right reserved   
-              </text>
+              </section>
           
-              <text class="ftc">
+              <section class="ftc">
                 Made with passion❤️‍🔥, love❤️, a lot of hours⏳ and my camera📷
-              </text>
+              </section>
           
-              <text class="ftr">
+              <section class="ftr">
                 <a href="https://www.facebook.com/phota.ka.kura" target="_blank"> <i class="fa-brands fa-facebook"></i>  </a>
                 <a href="https://www.instagram.com/talkingphotos.tp/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.twitter.com" target="_blank"> <i class="fa-brands fa-x-twitter"></i></a>
-              </text>
+              </section>
             </section>
           </footer>
           
