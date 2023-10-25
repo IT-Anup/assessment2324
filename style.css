@@ -9,13 +9,16 @@ background-position: center;
 
 }
 
-/* logo */
+/* logo for home page */
 .logo1
 {
  position: absolute;
  top: 30px;
  left: 20px;
 }
+
+
+/* logo for details and contact  page */
 .logo
 {
  position: absolute;
@@ -28,7 +31,6 @@ background-position: center;
 {
  background-color: rgb(206, 108, 69);
  padding: 20pX 0;
- 
  display: flex;
  list-style-type: none;
  justify-content: right;
@@ -36,12 +38,14 @@ background-position: center;
  top: 20px; 
 }
 
+
 li
 {
     font-size: 1.5em;
     display: flex;
     margin: 15px;   
 }
+
 
 /* for navigation bar and items for home page */
 .navhome
@@ -54,29 +58,49 @@ top: 20px;
 }
 
 
+/* cookies box*/ 
+.cookies
+{
+    background-color: rgb(255, 141, 88);
+    color: #000000;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    width: 20%;
+    z-index: 999999;
+}
+
+
+
 
 /* when the page is active */
-
-
-
 a.current
 {
     color: aqua;
 }
 
 /* for background colours for a items*/
-
 a
 {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
 }
 
+/* change colour for a elemnts for home page*/
+.navhome a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 /* a items colours when hover*/
 a:hover
 {
-    color: yellowgreen;
+    color: rgb(44, 115, 221);
 }
 
 
@@ -93,7 +117,6 @@ footer
 {
      background-color: rgb(206, 108, 69);
      color: azure;
-     
      padding: 20px 0;
      text-align: center;   
 }
@@ -138,8 +161,6 @@ padding-left: 20px;
 {
     padding-top: 20px;
     font-size: 1.2em;  
-    
-    
 }
 
 
@@ -187,8 +208,7 @@ padding-left: 20px;
 /* details page 2nd part of the  headdingfor page 2*/
 .page .heading h3 span
 {
-   font-weight: 80;
-   
+   font-weight: 80; 
 }
 
 
@@ -198,7 +218,6 @@ padding-left: 20px;
    display: flex;
    flex-direction: row;
    justify-content: space-between; 
-  
 }
 
 
@@ -215,10 +234,8 @@ padding-left: 20px;
 .page .it .pic img
 {
    width: 100%; 
-  
    padding-bottom: 5px;
    border-radius: 10px;
-  
 }
 
 
@@ -267,25 +284,25 @@ padding-left: 20px;
     text-decoration: none;
     font-weight: bolder;
     letter-spacing: 3px;
-
 }
 
 
 /* main section for page 4 and 5 */
 .image4
 {
+    
     display:flex;
     flex-direction: column;
     height: auto;
     text-align: center;
     top: 2em;
- 
 }
 
 
 /* paragrap styling*/
 .image4 .p4 
 {
+    
     margin-left: 130px;
     margin-right: 130px;
     padding: 10px;
@@ -298,6 +315,7 @@ padding-left: 20px;
 /* page 4 and 5 items in the screen like heading, images and paragraphs */
 .image4 .place4
 {
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center; 
     padding-bottom: 5px;    
@@ -308,11 +326,17 @@ padding-left: 20px;
 /* targating image section on page 4 and 5 */
 .image4 .IMGS4
 {
+    border: 7PX solid rgb(147, 160, 83);
+    margin-bottom: 50px;
     position: relative;
     align-items: center;
-  
     width: 80%;
     height: auto;   
+}
+
+p
+{
+    font-size: larger;
 }
 
 
@@ -349,7 +373,6 @@ padding-left: 20px;
     width: 50%;
     padding: 20px;
     background-color: #D681DD;
-    
 }
 
 
@@ -357,7 +380,6 @@ padding-left: 20px;
 .Left h2 
 {
     text-align: center;
-
 }
 
 
@@ -421,7 +443,6 @@ padding-left: 20px;
 .Left button:hover
 {
     background-color: rgb(127, 150, 93)
-
 }
 
 
@@ -431,7 +452,6 @@ padding-left: 20px;
     font-size: 90px;
     padding-left: 250px;
     padding-top: 240px;
-    
 }
 
 
