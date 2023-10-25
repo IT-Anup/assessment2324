@@ -220,7 +220,7 @@ padding-left: 20px;
 
 
 /* responsive for phone or screen change*/
-@media screen and (min-width: 1280px) 
+@media screen and (max-width: 1280px) 
 {
     .page .it
 { 
