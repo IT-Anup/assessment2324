@@ -13,15 +13,16 @@ background-position: center;
 .logo
 {
  position: absolute;
-  top: 10px;
-  left: 20px;
+ top: 20px;
+ left: 20px;
 }
 
 /* for navigation bar and items*/
 ul
 {
  background-color: rgb(206, 108, 69);
- padding: 20px 0;
+ padding: 20pX 0;
+margin-bottom: 50px;
  display: flex;
  list-style-type: none;
  align-content: right;
@@ -32,11 +33,32 @@ ul
 
 li
 {
-   
     font-size: 1.5em;
     display: flex;
     height: 10px;
     margin: 15px;   
+}
+
+/* for navigation bar and items for home page */
+ul1
+{
+display: flex;
+list-style-type: none;
+align-content: right;
+justify-content: right;
+position: relative;
+top: 20px; 
+}
+
+/* when the page is active */
+
+li.active
+{
+  font-weight: bold;  
+  background-color: bisque;
+  color: #C3B8B8;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 /* for background colours for a items*/
@@ -63,40 +85,52 @@ body.detailP
 }
 
 
-
+/* over all footer elemnt*/
 footer
 {
-    background-color: rgb(206, 108, 69);
+     background-color: rgb(206, 108, 69);
      color: azure;
-     padding: 30px 0;
-     text-align: center;
-    
+     
+     padding: 20px 0;
+     text-align: center;   
 }
+
+
+/*items for footer*/
 .items
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 36px ;
 }
 
+
+/*items on the lft of the footer*/
 .ftl
 {
-font-size: 14px;
-padding-left: 5px;
+font-size: 16px;
+padding-left: 20px;
 }
 
+
+/*items on the center of footer*/
+.ftc
+{
+  font-size: 15px;
+  align-items: center;  
+}
+
+
+/* items on the right*/
 .ftr
 {
-    padding-right: 5px;
-   
+    align-items:end;
+    padding-right: 20px;
     
 }
 
-
-
- 
-
-
+/* details page pictures, headding, and paragraph for page 2 and 3*/
 .page
 {
     display: flex;
@@ -107,11 +141,14 @@ padding-left: 5px;
     margin: 40px 20px 0 20px;
 }
 
+/* details headding for page 2 and 3*/
 .page .heading
 {
  width: 50%;
 }
 
+
+/* details page headding for page 2*/
 .page .heading h3
 {
    font-size: 3em;
@@ -120,12 +157,16 @@ padding-left: 5px;
    border-bottom: 3px solid #222; 
 }
 
+
+/* details page 2nd part of the  headdingfor page 2*/
 .page .heading h3 span
 {
    font-weight: 80;
    
 }
 
+
+/* details page pictures for page 2 and 3*/
 .page .it
 {
    display: flex;
@@ -134,6 +175,8 @@ padding-left: 5px;
   
 }
 
+
+/* details page pictures for page 2 and 3*/
 .page .it .pic
 {
    display: flex;
@@ -141,6 +184,8 @@ padding-left: 5px;
    width: 32.5%; 
 }
 
+
+/* details page targating img for page 2 and 3*/
 .page .it .pic img
 {
    width: 100%; 
@@ -148,6 +193,9 @@ padding-left: 5px;
    border-radius: 5px;
   
 }
+
+
+/* responsive for phone or screen change*/
 @media only screen and (max-width: 769px) 
 {
     .page .it
@@ -173,6 +221,9 @@ padding-left: 5px;
    font-size: 1em;
  
 }
+
+
+/* more button on the bottom for page 2 and 3*/
 }
 .page .btn
 {
@@ -180,10 +231,6 @@ padding-left: 5px;
     background-color: #000000;
     padding: 15px 40px;
     border-radius: 5px;
-}
-
-.page .btn
-{
     color: white;
     font-size:1.2em;
     text-decoration: none;
@@ -193,207 +240,72 @@ padding-left: 5px;
 }
 
 
-
-
-
+/* main section for page 4 and 5 */
 .image4
 {
-    display:inline-block;
-    border: 3PX solid rgb(147, 160, 83);
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
+    display:flex;
+    flex-direction: column;
     height: auto;
-    position: relative;
     text-align: center;
     top: 2em;
  
 }
 
+
+/* paragrap styling*/
 .image4 .p4 
 {
-    margin-left: 100px;
+    margin-left: 130px;
+    margin-right: 130px;
     padding: 10px;
 }
 
 
+/* top discription for page 3 */
+.dis
+{
+    margin-top: 35px;
+}
 
+
+/* page 4 and 5 items in the screen like heading, images and paragraphs */
 .image4 .place4
 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;  
     text-align: center; 
     padding-bottom: 5px;    
 }
 
+/* all headings */
+.headings
+{
+    padding-top: 20px;
+    font-size: 1.2em;  
+
+       
+}
+
+
+/* targating image section on page 4 and 5 */
 .image4 .IMGS4
 {
     position: relative;
     align-items: center;
   
-    width: 100%;
+    width: 80%;
     height: auto;   
 }
 
+
+/* targaing the img or pictures themselves */
 .image4 .IMGS4 img
-{
-  
-    width: 100%;
-       
-}
-
-
-
-.image44
-{
-    display: inline-block;
-    border: 3PX solid rgb(147, 160, 83);
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    top: 2em;
- 
-}
-
-
-
-.image44 .place44
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;  
-    text-align: center; 
-    padding-bottom: 5px;    
-}
-
-.image444
 { 
-    display: flex;
-    flex-direction: row;
-    border: 3PX solid rgb(147, 160, 83);
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    top: 2em;
- 
- 
+    width: 100%;     
 }
 
 
-
-.image444 .IMGS444
-{
-    position: relative;
-   align-content:space-between;
-  
-    width: 40%;
-    height: auto;   
-}
-
-
-.image5
-{
-    display:inline-block;
-    border: 3PX solid rgb(147, 160, 83);
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    top: 2em;
- 
-}
-
-.image5 .p5
-{
-    margin-left: 100px;
-    padding: 10px;
-}
-
-
-
-.image5 .place5
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;  
-    text-align: center; 
-    padding-bottom: 5px;    
-}
-
-.image5 .IMGS5
-{
-    position: relative;
-    align-items: center;
-  
-    width: 100%;
-    height: auto;   
-}
-
-.image44 .IMGS44 img
-{
-  
-    width: 100%;
-       
-}
-
-
-
-.image444
-{
-    display: inline-block;
-    border: 3PX solid rgb(147, 160, 83);
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    top: 2em;
- 
-}
-
-
-
-.image444 .place444
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;  
-    text-align: center; 
-    padding-bottom: 5px;    
-}
-
-.image4444
-{ 
-    display: flex;
-    flex-direction: row;
-    border: 3PX solid rgb(147, 160, 83);
-    margin: 5px;
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    top: 2em;
- 
- 
-}
-
-.image4444 .IMGS4444
-{
-    position: relative;
-   
-  
-    width: 90%;
-    height: auto;   
-}
-
-body2
+/* section for contact page  */
+.contactp
 {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -403,25 +315,34 @@ body2
     margin: 0;
 }
 
+
+/* section inside contactp*/
 .contact
 {
     display: flex;
     width: 80%;
 }
 
+
+/* left section in contact page*/
 .Left
 {
     width: 50%;
     padding: 20px;
     background-color: #D681DD;
+    
 }
 
+
+/* heading for left side in contact page */
 .Left h2 
 {
     text-align: center;
 
 }
 
+
+/*  labels for contact page for left side*/
 .Left label
 {
     display: block;
@@ -458,6 +379,8 @@ body2
     font-weight: bold;
 }
 
+
+/* submit butoon */
 .Left button
 {
     background-color: #000000;
@@ -469,32 +392,26 @@ body2
     float: right;
 }
 
+
+/* submit button turns green when hovered */
 .Left button:hover
 {
     background-color: rgb(127, 150, 93)
 
 }
 
+
+/* right side of the contact page */
 .right
 {
+    font-size: 90px;
+    padding-left: 250px;
+    padding-top: 240px;
     
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#C3B8B8;
-}
-
-.right a
-{
-
-color: white;
-font-size: 36px;
-text-decoration: none;
-margin: 0 20px;
 }
 
 
+/* class for radio button for Mrs and Mr */ 
 .title
 {
     display:flex;
