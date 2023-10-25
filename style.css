@@ -220,7 +220,7 @@ padding-left: 20px;
 
 
 /* responsive for phone or screen change*/
-@media only screen and (max-width: 769px) 
+@media screen and (min-width: 1280px) 
 {
     .page .it
 { 
@@ -233,7 +233,7 @@ padding-left: 20px;
 }    
 }
 
-@media only screen and (max-width: 610px) 
+@media  screen and (max-width: 1280px) 
 {
     .page .heading
 {
@@ -244,6 +244,10 @@ padding-left: 20px;
 {
    font-size: 1em;
  
+}
+
+@media screen {
+    
 }
 
 

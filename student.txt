@@ -1,5 +1,5 @@
-Student name: your name 
-Student number: your student number
-Student class: your class
+Student name: Anup Subedi
+Student number: 702195
+Student class: IT1A
 GitHub Repository: your github repository URL
 GitHub Pages URL: your github pages URL
