@@ -58,6 +58,15 @@ top: 20px;
 }
 
 
+/* name of the home page picture */
+.picname
+{
+   text-align: center;
+   font-size: 25px;
+   color: white;
+   padding-top: 23em;
+}
+
 /* cookies box*/ 
 .cookies
 {
@@ -100,7 +109,7 @@ a
 /* a items colours when hover*/
 a:hover
 {
-    color: rgb(44, 115, 221);
+    color: rgb(0, 187, 9);
 }
 
 
@@ -167,7 +176,7 @@ padding-left: 20px;
 /* top discription for page 3 */
 .dis
 {
-    margin-top: 40px;
+   
     letter-spacing: normal;
     line-height: normal;
     text-indent: 40px;
@@ -238,9 +247,17 @@ padding-left: 20px;
    border-radius: 10px;
 }
 
+.map
+{
+   
+
+    align-items: center;
+    padding-bottom: 20px;
+}
+
 
 /* responsive for phone or screen change*/
-@media screen and (max-width: 1280px) 
+@media screen and (max-width: 768px) 
 {
     .page .it
 { 
@@ -253,7 +270,7 @@ padding-left: 20px;
 }    
 }
 
-@media  screen and (max-width: 1280px) 
+@media  screen and (max-width: 768px) 
 {
     .page .heading
 {
@@ -276,7 +293,7 @@ padding-left: 20px;
 .page .btn
 {
     margin: 40px 0 70px 0;
-    background-color: #000000;
+    background-color: #cfec27;
     padding: 15px 40px;
     border-radius: 5px;
     color: white;
@@ -306,9 +323,8 @@ padding-left: 20px;
     margin-left: 130px;
     margin-right: 130px;
     padding: 10px;
+   
 }
-
-
 
 
 
@@ -327,7 +343,7 @@ padding-left: 20px;
 .image4 .IMGS4
 {
     border: 7PX solid rgb(147, 160, 83);
-    margin-bottom: 50px;
+   
     position: relative;
     align-items: center;
     width: 80%;
