@@ -63,8 +63,12 @@ top: 20px;
 {
    text-align: center;
    font-size: 25px;
-   color: white;
    padding-top: 23em;
+}
+
+.picname a
+{
+   color:white;
 }
 
 /* cookies box*/ 
@@ -465,10 +469,15 @@ p
 /* right side of the contact page */
 .right
 {
-    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 180px;
     padding-left: 250px;
-    padding-top: 240px;
+    padding-top: 50px;
 }
+
+
 
 
 /* class for radio button for Mrs and Mr */ 
