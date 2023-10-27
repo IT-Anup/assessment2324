@@ -1,5 +1,5 @@
-Student name: your name 
-Student number: your student number
-Student class: your class
+Student name: Anup Subedi
+Student number: 702195
+Student class: IT 1A
 GitHub Repository: https://github.com/IT-Anup?tab=repositories
 GitHub Pages URL: https://github.com/IT-Anup/assessment2324.git
