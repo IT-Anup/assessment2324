@@ -2,15 +2,28 @@
 /* background image*/
 body.home
 {
-background-image: url("../imgs/homepage.jpg");    
+background-image: url("../imgs/IMG_0013.jpg");    
 background-size: cover;
 background-attachment: fixed;
-
-height: 100%;
-
+background-attachment: fixed;
+height: 90%;
+margin-top: 10px;
 background-position: center;
-
 }
+
+@media screen and (max-width: 768px) 
+{
+
+    body.home
+{
+background-image: url("../imgs/IMG_9216.jpg");    
+background-size: cover;
+height: 100%;
+background-position: center;
+} 
+}
+
+
 
 /* logo for home page */
 .logo1
@@ -55,7 +68,7 @@ li
 {
 display: flex;
 list-style-type: none;
-justify-content: right;
+justify-content: center;
 position: relative;
 top: 20px; 
 }
@@ -71,7 +84,8 @@ top: 20px;
 
 .picname a
 {
-   color:white;
+   color:rgb(255, 255, 255);
+   text-decoration: underline;
 }
 
 /* cookies box*/ 
@@ -99,7 +113,7 @@ a.current
 /* for background colours for a items*/
 a
 {
-    color: rgb(0, 0, 0);
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -107,10 +121,11 @@ a
 /* change colour for a elemnts for home page*/
 .navhome a
 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
+
 
 
 /* a items colours when hover*/
