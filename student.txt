@@ -2,4 +2,4 @@ Student name: Anup Subedi
 Student number: 702195
 Student class: IT 1A
 GitHub Repository: https://github.com/IT-Anup?tab=repositories
-GitHub Pages URL: https://github.com/IT-Anup/assessment2324.git
+GitHub Pages URL: https://it-anup.github.io/assessment2324/
