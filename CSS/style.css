@@ -1,5 +1,5 @@
 
-/* background image*/
+/* background image for home page*/
 body.home
 {
 background-image: url("../imgs/IMG_0013.jpg");    
@@ -252,7 +252,6 @@ padding-left: 20px;
    justify-content: space-between; 
 }
 
-
 /* details page pictures for page 2 and 3*/
 .page .it .pic
 {
@@ -260,7 +259,6 @@ padding-left: 20px;
    flex-direction: column;
    width: 32.5%; 
 }
-
 
 /* details page targating img for page 2 and 3*/
 .page .it .pic img
