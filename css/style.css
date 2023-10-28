@@ -1,97 +1,85 @@
-
 /* background image for home page*/
-body.home
-{
-background-image: url("../imgs/IMG_0013.jpg");    
-background-size: cover;
-background-attachment: fixed;
-background-attachment: fixed;
-height: 90%;
-margin-top: 10px;
-background-position: center;
+body.home {
+    background-image: url("../imgs/IMG_0013.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    height: 90%;
+    margin-top: 10px;
+    background-position: center;
 }
 
 /* responsive for home page*/
-@media screen and (max-width: 768px) 
-{
+@media screen and (max-width: 768px) {
 
-    body.home
-{
-background-image: url("../imgs/IMG_9216.jpg");    
-background-size: cover;
-height: 100%;
-background-position: center;
-} 
+    body.home {
+        background-image: url("../imgs/IMG_9216.jpg");
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+    }
 }
 
 
 
 /* logo for home page */
-.logo1
-{
- position: absolute;
- top: 30px;
- left: 20px;
+.logo1 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
 }
 
 
 /* logo for details and contact  page */
-.logo
-{
- position: absolute;
- top: 55px;
- left: 20px;
+.logo {
+    position: absolute;
+    top: 55px;
+    left: 20px;
 }
 
 /* for navigation bar and items*/
-.others
-{
- background-color: rgb(206, 108, 69);
- padding: 20pX 0;
- display: flex;
- list-style-type: none;
- justify-content: right;
- position: relative;
- top: 20px; 
+.others {
+    background-color: rgb(206, 108, 69);
+    padding: 20pX 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    position: relative;
+    top: 20px;
 }
 
 
-li
-{
+li {
     font-size: 1.5em;
     display: flex;
-    margin: 15px;   
+    margin: 15px;
 }
 
 
 /* for navigation bar and items for home page */
-.navhome
-{
-display: flex;
-list-style-type: none;
-justify-content: center;
-position: relative;
-top: 20px; 
+.navhome {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    position: relative;
+    top: 20px;
 }
 
 
 /* name of the home page picture */
-.picname
-{
-   text-align: center;
-   font-size: 25px;
-   padding-top: 23em;
+.picname {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 23em;
 }
 
-.picname a
-{
-   color:rgb(255, 255, 255);
-   text-decoration: underline;
+.picname a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
-/* cookies box*/ 
-.cookies
-{
+/* cookies box*/
+.cookies {
     background-color: rgb(255, 141, 88);
     color: #000000;
     padding: 10px;
@@ -106,22 +94,19 @@ top: 20px;
 
 
 /* when the page is active */
-a.current
-{
+a.current {
     color: aqua;
 }
 
 /* for background colours for a items*/
-a
-{
+a {
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
 
 /* change colour for a elemnts for home page*/
-.navhome a
-{
+.navhome a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bolder;
@@ -130,77 +115,68 @@ a
 
 
 /* a items colours when hover*/
-a:hover
-{
+a:hover {
     color: rgb(0, 187, 9);
 }
 
 
 
 /* background colour for all details page*/
-body.detailP
-{
+body.detailP {
     background-color: #C3B8B8;
 }
 
 
 /* over all footer elemnt*/
-footer
-{
-     background-color: rgb(206, 108, 69);
-     color: azure;
-     padding: 20px 0;
-     text-align: center;   
+footer {
+    background-color: rgb(206, 108, 69);
+    color: azure;
+    padding: 20px 0;
+    text-align: center;
 }
 
 
 /*items for footer*/
-.items
-{
+.items {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 36px ;
+    font-size: 36px;
 }
 
 
 /*items on the lft of the footer*/
-.ftl
-{
-font-size: 16px;
-padding-left: 20px;
+.ftl {
+    font-size: 16px;
+    padding-left: 20px;
 }
 
 
 /*items on the center of footer*/
-.ftc
-{
-  font-size: 15px;
-  align-items: center;  
+.ftc {
+    font-size: 15px;
+    align-items: center;
 }
 
 
 /* items on the right*/
-.ftr
-{
-    align-items:end;
+.ftr {
+    align-items: end;
     padding-right: 20px;
-    
+
 }
 
 /* all headings */
-.headings
-{
+.headings {
     padding-top: 20px;
-    font-size: 1.2em;  
+    font-size: 1.2em;
 }
 
 
 /* top discription for page 3 */
-.dis
-{
+.dis {
     font-size: large;
-   
+
     letter-spacing: normal;
     line-height: normal;
     text-indent: 40px;
@@ -209,8 +185,7 @@ padding-left: 20px;
 
 
 /* details page pictures, headding, and paragraph for page 2 and 3*/
-.page
-{
+.page {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,56 +197,49 @@ padding-left: 20px;
 
 
 /* details headding for gallery*/
-.page .heading
-{
- width: 50%;
+.page .heading {
+    width: 50%;
 }
 
 
 /* details page headding for page 2*/
-.page .heading h3
-{
-   font-size: 3em;
-   font-weight: bolder;
-   padding-bottom: 10px;
-   border-bottom: 3px solid #222; 
+.page .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
 }
 
 
 /* details page 2nd part of the  headdingfor page 2*/
-.page .heading h3 span
-{
-   font-weight: 80; 
+.page .heading h3 span {
+    font-weight: 80;
 }
 
 
 /* details page pictures for page 2 and 3*/
-.page .it
-{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between; 
+.page .it {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* details page pictures for page 2 and 3*/
-.page .it .pic
-{
-   display: flex;
-   flex-direction: column;
-   width: 32.5%; 
+.page .it .pic {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
 }
 
 /* details page targating img for page 2 and 3*/
-.page .it .pic img
-{
-   width: 100%; 
-   padding-bottom: 5px;
-   border-radius: 10px;
+.page .it .pic img {
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 10px;
 }
 
-.map
-{
-   
+.map {
+
 
     align-items: center;
     padding-bottom: 20px;
@@ -279,47 +247,40 @@ padding-left: 20px;
 
 
 /* responsive for phone or screen change*/
-@media screen and (max-width: 768px) 
-{
-    .page .it
-{ 
-   flex-direction: column;
-}
-.page .it .pic
-{
-  
-   width: 100%; 
-}    
+@media screen and (max-width: 768px) {
+    .page .it {
+        flex-direction: column;
+    }
+
+    .page .it .pic {
+
+        width: 100%;
+    }
 }
 
-@media  screen and (max-width: 768px) 
-{
-    .page .heading
-{
- width: 100%;
-}
+@media screen and (max-width: 768px) {
+    .page .heading {
+        width: 100%;
+    }
 
-.page .heading h3
-{
-   font-size: 1em;
- 
-}
+    .page .heading h3 {
+        font-size: 1em;
 
-@media screen {
-    
-}
+    }
+
+    @media screen {}
 
 
-/* more button on the bottom for page 2 and 3*/
+    /* more button on the bottom for page 2 and 3*/
 }
-.page .btn
-{
+
+.page .btn {
     margin: 40px 0 70px 0;
     background-color: #cfec27;
     padding: 15px 40px;
     border-radius: 5px;
     color: white;
-    font-size:1.2em;
+    font-size: 1.2em;
     text-decoration: none;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -327,10 +288,9 @@ padding-left: 20px;
 
 
 /* main section for page 4 and 5 */
-.image4
-{
-    
-    display:flex;
+.image4 {
+
+    display: flex;
     flex-direction: column;
     height: auto;
     text-align: center;
@@ -339,55 +299,49 @@ padding-left: 20px;
 
 
 /* paragrap styling*/
-.image4 .p4 
-{
-    
+.image4 .p4 {
+
     margin-left: 130px;
     margin-right: 130px;
     padding: 10px;
-   
+
 }
 
 
 
 /* page 4 and 5 items in the screen like heading, images and paragraphs */
-.image4 .place4
-{
-    
+.image4 .place4 {
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center; 
-    padding-bottom: 5px;    
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 
 
 /* targating image section on page 4 and 5 */
-.image4 .IMGS4
-{
+.image4 .IMGS4 {
     border: 7PX solid rgb(147, 160, 83);
-   
+
     position: relative;
     align-items: center;
     width: 80%;
-    height: auto;   
+    height: auto;
 }
 
-p
-{
+p {
     font-size: larger;
 }
 
 
 /* targaing the img or pictures themselves */
-.image4 .IMGS4 img
-{ 
-    width: 100%;     
+.image4 .IMGS4 img {
+    width: 100%;
 }
 
 
 /* section for contact page  */
-.contactp
-{
+.contactp {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
@@ -398,16 +352,14 @@ p
 
 
 /* section inside contactp*/
-.contact
-{
+.contact {
     display: flex;
     width: 80%;
 }
 
 
 /* left section in contact page*/
-.Left
-{
+.Left {
     width: 50%;
     padding: 20px;
     background-color: #D681DD;
@@ -415,15 +367,13 @@ p
 
 
 /* heading for left side in contact page */
-.Left h2 
-{
+.Left h2 {
     text-align: center;
 }
 
 
 /*  labels for contact page for left side*/
-.Left label
-{
+.Left label {
     display: block;
     margin-top: 10px;
 }
@@ -432,8 +382,7 @@ p
 .Left input [type="email"],
 .Left input [type="phone"],
 .Left select,
-.Left textarea
-{
+.Left textarea {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
@@ -442,31 +391,26 @@ p
 }
 
 
-.Left label[for="message"]
-{
+.Left label[for="message"] {
     display: block;
 }
 
-.Left input[type="radio"]
-{
-    margin-right: 5px;  
+.Left input[type="radio"] {
+    margin-right: 5px;
 }
 
- .Suscribelbl 
-{
-    display:block;
+.Suscribelbl {
+    display: block;
     font-weight: bold;
 }
 
-.yn
-{
+.yn {
     display: flex;
 }
 
 
 /* submit butoon */
-.Left button
-{
+.Left button {
     background-color: #000000;
     color: white;
     padding: 10px 20px;
@@ -478,15 +422,13 @@ p
 
 
 /* submit button turns green when hovered */
-.Left button:hover
-{
+.Left button:hover {
     background-color: rgb(127, 150, 93)
 }
 
 
 /* right side of the contact page */
-.right
-{
+.right {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -498,11 +440,8 @@ p
 
 
 
-/* class for radio button for Mrs and Mr */ 
-.title
-{
-    display:flex;
+/* class for radio button for Mrs and Mr */
+.title {
+    display: flex;
     font-weight: bold;
 }
-
-
