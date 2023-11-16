@@ -94,10 +94,7 @@ li {
 
 
 
-/* when the page is active */
-a.current:active {
-    color: aqua;
-}
+
 
 /* for background colours for a items*/
 a {
@@ -118,6 +115,11 @@ a {
 /* a items colours when hover*/
 a:hover {
     color: rgb(0, 187, 9);
+}
+
+/* when the page is active */
+a.current:active {
+    color: aqua;
 }
 
 
@@ -323,7 +325,6 @@ footer {
 /* targating image section on page 4 and 5 */
 .image4 .IMGS4 {
     border: 7PX solid rgb(147, 160, 83);
-
     position: relative;
     align-items: center;
     width: 80%;
@@ -368,8 +369,10 @@ p {
 
 
 /* heading for left side in contact page */
-.Left h2 {
+.Left h1 {
     text-align: center;
+    font-size: 1.5em;
+
 }
 
 
