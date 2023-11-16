@@ -88,14 +88,14 @@ li {
     bottom: 0;
     right: 100px;
     width: 20%;
-    z-index: 999999;
+    z-index: 9999;
 }
 
 
 
 
 /* when the page is active */
-a.current {
+a.current:active {
     color: aqua;
 }
 
