@@ -25,6 +25,8 @@ body.home {
 /* logo for home page */
 .logo1 {
     position: absolute;
+    width: 80px;
+    height: 60px;
     top: 30px;
     left: 20px;
 }
@@ -33,6 +35,8 @@ body.home {
 /* logo for details and contact  page */
 .logo {
     position: absolute;
+    width: 80px;
+    height: 60px;
     top: 55px;
     left: 20px;
 }
@@ -90,10 +94,6 @@ li {
     width: 20%;
     z-index: 9999;
 }
-
-
-
-
 
 
 /* for background colours for a items*/
@@ -179,7 +179,6 @@ footer {
 /* top discription for page 3 */
 .dis {
     font-size: large;
-
     letter-spacing: normal;
     line-height: normal;
     text-indent: 40px;
@@ -189,6 +188,7 @@ footer {
 
 /* details page pictures, headding, and paragraph for page 2 and 3*/
 .page {
+    font-family: "Trirong", serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,6 +222,7 @@ footer {
 
 /* details page pictures for page 2 and 3*/
 .page .it {
+    font-family: "Trirong", serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -292,7 +293,7 @@ footer {
 
 /* main section for page 4 and 5 */
 .image4 {
-
+    font-family: "Trirong", serif;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -315,8 +316,7 @@ footer {
 /* page 4 and 5 items in the screen like heading, images and paragraphs */
 .image4 .place4 {
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    font-family: "Trirong", serif;    text-align: center;
     padding-bottom: 5px;
 }
 
@@ -370,9 +370,14 @@ p {
 
 /* heading for left side in contact page */
 .Left h1 {
+    text-transform: uppercase;
     text-align: center;
     font-size: 1.5em;
 
+}
+
+legend{
+    padding-bottom: 20px;
 }
 
 
