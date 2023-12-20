@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@500&display=swap');
+
 /* background image for home page*/
 body.home {
     background-image: url("../imgs/IMG_0013.jpg");
@@ -301,6 +303,13 @@ footer {
     top: 2em;
 }
 
+.map iframe{
+    
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 450px;
+}
 
 /* paragrap styling*/
 .image4 .p4 {
